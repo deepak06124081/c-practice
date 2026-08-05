@@ -3,7 +3,7 @@
 int main(void)
 {
     int a=4, b=2 ,c=6,d=32;
-    if(a>b && b>c && b>d)
+    if(a>b && a>c && a>d)
     {
         printf("The greatest number is %d\n", a);
     }

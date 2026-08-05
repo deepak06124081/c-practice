@@ -8,7 +8,7 @@ int main(void)
         printf("You can drive and you are a senoir citizen");
       }
     else if (age>18){
-    printf("Yiu can drive and you are an adult");
+    printf("You can drive and you are an adult");
 
 }   
 else{
