@@ -16,5 +16,5 @@ A simple C program where the computer picks a random number between 1-100, and t
 
 ## How to run
 ```
-gcc guessing_game.c -o guessing_game
-./guessing_game
+gcc guessing_game.c -o randomnumber.c
+./randomnumber
