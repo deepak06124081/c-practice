@@ -14,19 +14,18 @@ int mystrlen(char str[])
 }
 void mystrcpy(char target[], char source[])
 {
-   for( int i = 0; i < mystrlen(source); i++)
-   {
-    target[i] = source[i];
-   }
-   target[mystrlen(source)] = '\0';
+    for (int i = 0; i < mystrlen(source); i++)
+    {
+        target[i] = source[i];
+    }
+    target[mystrlen(source)] = '\0';
 }
 int main()
 {
-    char source [] = "Deepak";
-    char target[30];    
-    mystrcpy(target, source); // target now contains "Deepak"
-printf("%s %s\n", source, target); // This line prints the contents of the source and target arrays, which are both "Deepak".   
-
+    char source[] = "Deepak";
+    char target[30];
+    mystrcpy(target, source);          // target now contains "Deepak"
+    printf("%s %s\n", source, target); // This line prints the contents of the source and target arrays, which are both "Deepak".
 
     return 0;
 }

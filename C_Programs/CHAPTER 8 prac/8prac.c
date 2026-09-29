@@ -16,6 +16,6 @@ int strlen(char str[])
 int main()
 {
     char str[] = "Deepak";
-    printf("%d", strlen(str));
+    printf("%d", strlen);
     return 0;
 }

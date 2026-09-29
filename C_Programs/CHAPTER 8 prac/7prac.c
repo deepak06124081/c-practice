@@ -4,7 +4,7 @@ int main()
 {
      char str[6];
     //scanf("%s", str);
-   for (int i = 0; i < 6; i++)
+   for (int i = 0; i <= 6; i++)
     {
         scanf("%c", &str[i]);
         fflush(stdin); // Clear the input buffer to avoid reading the newline character
