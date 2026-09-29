@@ -20,7 +20,7 @@ int main(void)
         for (int j = 0; j < 2; j++)
         {
         
-        printf("Enter the value of arr[%d][%d] is %d\n", i, j, arr[i][j]);
+        printf("The value of arr[%d][%d] is %d\n", i, j, arr[i][j]);
     }
     
     }
