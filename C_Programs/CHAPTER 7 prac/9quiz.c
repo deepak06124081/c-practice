@@ -8,10 +8,12 @@ int main(void)
     printf("The Fibonacci series is:");
     for (i = 0;i <= n; i++)
     {
-        printf("%d",a);
-        c =a+b;
-        a=b;
-        b=c;  
+        printf("%d", a);
+        c = a+b;
+        a = b;
+        b = c;  
     }
+    printf("\n");
+    
     return 0;
 }
