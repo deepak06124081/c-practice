@@ -2,7 +2,7 @@
 #include <string.h>
 int main()
 {
-    char str[] = "I will make my parents Proud";
+    char str[] = "BHAICHARA ON TOP ALWAYS";
     for (int i = 0; i < strlen(str); i++)
     {
         str[i] = str[i] + 1;
