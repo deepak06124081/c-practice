@@ -17,7 +17,7 @@ Marks Range
         <50 =>F
 */
     char grade;
-    int marks = 85;
+    int marks = 80;
     if(marks<=100 && marks>=90){
         grade = 'A';
     }else if(marks<90 && marks>=80){
