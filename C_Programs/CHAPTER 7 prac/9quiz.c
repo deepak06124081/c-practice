@@ -6,7 +6,7 @@ int main(void)
     printf("Enter the integers: ");
     scanf("%d", &n);
     printf("The Fibonacci series is:");
-    for (i = 0;i <= n; i++)
+    for (i = 0;i < n; i++)
     {
         printf("%d", a);
         c = a+b;
