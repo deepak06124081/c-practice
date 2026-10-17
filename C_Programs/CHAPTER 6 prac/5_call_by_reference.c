@@ -15,3 +15,5 @@ int sum(int* a, int* b)
     printf("The value of x is %d", x);
     return 0;
 }
+
+
